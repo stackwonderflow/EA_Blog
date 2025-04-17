@@ -1,0 +1,29 @@
+title: EA Blog
+description: A simple, elegant blog
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true 
