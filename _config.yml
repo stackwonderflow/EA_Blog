@@ -1,7 +1,7 @@
 title: EA Blog
 description: A simple, elegant blog
-baseurl: ""
-url: ""
+baseurl: "/EA_Blog"  # the subpath of your site, e.g. /blog
+url: "https://aba.github.io"  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
